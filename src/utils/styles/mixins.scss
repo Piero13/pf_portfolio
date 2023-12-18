@@ -1,0 +1,7 @@
+@mixin bg-gradient-darkblue {
+    background: linear-gradient(to top left, $quaternary, $primary);
+}
+
+@mixin bg-gradient-lightblue {
+    background: linear-gradient(to top left, $secondary, $quaternary);
+}
