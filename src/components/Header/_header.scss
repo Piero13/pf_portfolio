@@ -2,22 +2,23 @@
 @import '../../utils/styles/mixins.scss';
 
 .header {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    width: 100%;
+    padding: 15px 20px;
     @include bg-gradient-darkblue;
 }
 
 .title {
     display: flex;
     align-items: center;
-
     &__logo {
         width: 50px;
         margin: 0 20px;
+        cursor: pointer;
     }
-
     &__text {
         & h1 {
             font-size: 1.2rem;
