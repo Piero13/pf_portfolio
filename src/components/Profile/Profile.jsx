@@ -1,4 +1,3 @@
-import './_profile.scss';
 import profilePicture from '../../assets/moi2-min.png';
 
 function Profile(props) {

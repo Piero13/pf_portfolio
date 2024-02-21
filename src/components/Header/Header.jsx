@@ -1,5 +1,4 @@
 import logo from '../../assets/logo.png'
-import './_header.scss';
 
 const reload = () => {
     window.location.replace("/#home");

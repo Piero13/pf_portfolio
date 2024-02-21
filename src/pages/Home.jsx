@@ -1,9 +1,10 @@
-import './_home.scss';
 import Profile from '../components/Profile/Profile';
+import Portfolio from '../components/Portfolio/Portfolio';
 
 function Home() {
   return (
     <main>
+
       <div id="home" className='home'>
         <p className="home__title">
           Pierre FASCE
@@ -19,6 +20,13 @@ function Home() {
       <div className='interSection'>
 
       </div>
+
+      <Portfolio id='portfolio' title='Portfolio'/>
+
+      <div className='interSection'>
+
+      </div>
+      
     </main>
   );
 }

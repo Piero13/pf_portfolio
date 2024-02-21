@@ -1,9 +1,6 @@
-@import '../../utils/styles/mixins.scss';
-@import '../../utils/styles/variables.scss';
-
 .profile {
     &__picture {
-        margin: 50px 0;
+        margin-bottom: 50px;
         border-radius: 50%;
         overflow: hidden;
         @include border-red;

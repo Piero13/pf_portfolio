@@ -1,1 +1,11 @@
-@import './utils/styles/globalStyles.scss';
+@import './utils/styles/variables';
+@import './utils/styles/mixins';
+@import './utils/styles/globalStyles';
+
+@import './components/Footer/footer';
+@import './components/Header/header';
+@import './components/Profile/profile';
+@import './components/Portfolio/portfolio';
+@import './components/Slider/slider';
+
+@import './pages/home';
