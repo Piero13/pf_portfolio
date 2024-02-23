@@ -30,6 +30,9 @@ function Slider({slides}) {
                 {slides.map((slide) => (
                     <SwiperSlide key={slide.source}>
                         <img src={slide.source} alt={slide.title} className="sliderImage" />
+                        <div className='infosLinkContainer link'>
+                            <p className='infosLink'>Plus d'infos...</p>
+                        </div>
                         <div className='slide-infos'>
                             <h3 className="slide-infos__title">
                                 {slide.title}

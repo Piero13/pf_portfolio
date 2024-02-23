@@ -29,6 +29,14 @@
     background: $tertiary;
 }
 
+.infosLinkContainer {
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    width: fit-content;
+    cursor: pointer;
+}
+
 .slide-infos {
     position: absolute;
     display: flex;

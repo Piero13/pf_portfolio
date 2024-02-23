@@ -1,5 +1,6 @@
 import Profile from '../components/Profile/Profile';
 import Portfolio from '../components/Portfolio/Portfolio';
+import SkillsGroup from '../components/SkillsGroup/SkillsGroup';
 
 function Home() {
   return (
@@ -26,7 +27,9 @@ function Home() {
       <div className='interSection'>
 
       </div>
-      
+
+      <SkillsGroup id='skills' title='Compétences'/>
+
     </main>
   );
 }
