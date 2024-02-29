@@ -1,0 +1,33 @@
+.personnalInfos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+
+    & * {
+        margin-bottom: 25px;
+    }
+
+    & a {
+        display: flex;
+    }
+
+    &__icon {
+        display: inline-block;
+        align-self: center;
+        margin: 0 10px 0 0;
+    }
+}
+
+.socialInfos {
+    &__icon {
+        margin: 0 15px;
+        font-size: 2.4rem;
+        transition: all 300ms;
+
+        &:hover {
+            transform: scale(1.2);
+            filter: drop-shadow(3px 3px 5px $primary);
+        }
+    }
+}

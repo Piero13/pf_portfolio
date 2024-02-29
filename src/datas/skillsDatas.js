@@ -7,7 +7,7 @@ export const skillsDatas = [
                 "level": 80,
             },
             {
-                "skill": "CSS / SCSS",
+                "skill": "CSS/SCSS",
                 "level": 80,
             },
             {

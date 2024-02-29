@@ -20,7 +20,7 @@ function Header() {
                     <a href='#profile' className='link navbar__link'>Profil</a>
                     <a href='#portfolio' className='link navbar__link'>Portfolio</a>
                     <a href='#skills' className='link navbar__link'>Compétences</a>
-                    <a href='#contact' className='link navbar__link'>Contact</a>
+                    <a href='#footer' className='link navbar__link'>Contact</a>
                 </nav>
             </header>
         </>

@@ -1,6 +1,6 @@
 import Profile from '../components/Profile/Profile';
 import Portfolio from '../components/Portfolio/Portfolio';
-import SkillsGroup from '../components/SkillsGroup/SkillsGroup';
+import Skills from '../components/Skills/Skills';
 
 function Home() {
   return (
@@ -28,7 +28,11 @@ function Home() {
 
       </div>
 
-      <SkillsGroup id='skills' title='Compétences'/>
+      <Skills id='skills' title='Compétences'/>
+
+      <div className='interSection'>
+
+      </div>
 
     </main>
   );

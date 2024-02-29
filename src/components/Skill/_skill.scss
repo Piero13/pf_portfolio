@@ -1,0 +1,17 @@
+.skillTitle {
+    margin-bottom: 2px;
+    text-align: left;
+}
+
+.progressBar {
+    width: 100%;
+    height: 15px;
+    margin-bottom: 15px;
+    background-color: $secondary;
+    box-shadow: 3px 3px 5px $primary;
+}
+
+.progressLevel {
+    height: 15px;
+    background-color: $tertiary;
+}
