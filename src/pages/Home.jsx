@@ -5,8 +5,8 @@ import Skills from '../components/Skills/Skills';
 function Home() {
   return (
     <main>
-
-      <div id="home" className='home'>
+      
+      <section id="home" className='home'>
         <p className="home__title">
           Pierre FASCE
         </p>
@@ -14,7 +14,7 @@ function Home() {
           {"<Développeur Web Frontend>"}
         </p>
         <a className='btn' href="#profile">Plus d'infos</a>
-      </div>
+      </section>
 
       <Profile id='profile' title='À propos de moi'/>
 

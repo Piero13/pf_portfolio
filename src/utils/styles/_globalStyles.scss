@@ -78,3 +78,10 @@ section {
         box-shadow: black 3px 3px 10px;
     }
 }
+
+/*mobile device*/
+@media #{$breakpoint-s} {
+    * {
+        font-size: 12px;
+    }
+}

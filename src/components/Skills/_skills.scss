@@ -26,3 +26,22 @@
         margin-bottom: 5px;
     }
 }
+
+/*mobile device*/
+@media #{$breakpoint-s} {
+    .skills {
+        &__display {
+            display: flex;
+            flex-direction: column;
+            padding: 0 30px;
+        }
+
+        &__levels {
+            width: 100%;
+        }
+
+        &__timeline {
+            width: 100%;
+        }
+    }
+}
